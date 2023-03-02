@@ -1,0 +1,42 @@
+   50  git init
+   51  ls 
+   52  ls -l
+   53  ls -l -la
+   54  mkdir src
+   55  mkdir tests
+   56  python -m venv myenv
+   57  ls -la
+   58  source myenv/Scripts/activate
+   59  pip install pyqt5 opencv-python
+   60  pip freeze > requirements.txt
+   61  ls -la
+   62  cd src
+   63  touch myapp.py
+   64  ls -l
+   65  pip install pytest
+   66  pytest
+   67  cd ..
+   68  pytest
+   69  export PYTHONPATH=src
+   70  pytest
+   71  pytest
+   72  git remote add origin https://github.com/NikNazarov/MyGitTestRepo.git
+   73  touch .gitignore
+   74  git status
+   75  git add . 
+   76  git commit -m "Initial"
+   77  git push
+   78  git push --set-upstream origin main
+   79  git push
+   80  git pull
+   81  git add .
+   82  git commit -m "Update YML file"
+   83  git push
+   84  pytest
+   85  git add .
+   86  git commit -m "Update YML"
+   87  git push
+   88  cat .bashrc
+   89  exit
+   90  history
+   91  history > history.txt
